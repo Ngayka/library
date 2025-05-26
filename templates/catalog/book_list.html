@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load crispy_forms_filters %}
+
+{% block content %}
+  <h1 class="d-flex justify-content-between align-items-center">Book list
+  <a class="btn btn-primary" href="{% url 'catalog:book-create' %}">+</a></h1>
+  <form method = "get" action="" class="form-inline">
+  {{ search_form|crispy }}
+    <input class= "btn btn-secondary" type="submit" name="search" value="📖">
+  </form>
+  {%  if book_list %}
+   <table class="table">
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Format</th>
+      <th>Price</th>
+    </tr>
+    {% for book in book_list %}
+    <tr>
+      <td>
+        <a href="{{ book.get_absolute_url }}">{{ book.id }}</a></td>
+      <td>{{ book.title }}</td>
+      <td>{{ book.format|default_if_none:"" }}</td>
+      <td>{{ book.price|default_if_none:"" }}</td>
+    </tr>
+    {% endfor %}
+    </table>
+  {% endif %}
+{% endblock %}

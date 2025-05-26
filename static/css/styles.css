@@ -1,0 +1,13 @@
+body{
+    margin-top: 20px;
+    background-color: lightblue;
+}
+
+.sidebar-nav    {
+    padding: 0;
+    list-style: none;
+}
+
+.text_format {
+    color: white
+}

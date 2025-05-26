@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load crispy_forms_filters %}
+{% block content %}
+  <h1>Delete Literary Format</h1>
+  <p>Are you sure that you want to delete <strong>{{ literaryformat }}</strong> literary format?</p>
+  <em>All books in this format will be also deleted</em>
+  <form action="" method="post">
+  {% csrf_token %}
+    {{ form|crispy}}
+    <input class="btn btn-danger" type="submit" value="Yes, delete">
+  </form>
+{% endblock %}

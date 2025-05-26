@@ -1,0 +1,316 @@
+[
+{
+    "model": "catalog.literaryformat",
+    "pk": 2,
+    "fields": {
+        "name": "novella"
+    }
+},
+{
+    "model": "catalog.literaryformat",
+    "pk": 3,
+    "fields": {
+        "name": "drama"
+    }
+},
+{
+    "model": "catalog.literaryformat",
+    "pk": 4,
+    "fields": {
+        "name": "biography"
+    }
+},
+{
+    "model": "catalog.literaryformat",
+    "pk": 9,
+    "fields": {
+        "name": "Ballada"
+    }
+},
+{
+    "model": "catalog.literaryformat",
+    "pk": 11,
+    "fields": {
+        "name": "horror"
+    }
+},
+{
+    "model": "catalog.literaryformat",
+    "pk": 13,
+    "fields": {
+        "name": "Romansy"
+    }
+},
+{
+    "model": "catalog.literaryformat",
+    "pk": 14,
+    "fields": {
+        "name": "Fairy Tailor"
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$L7oe7rjdEdr9AyNB7qQTvm$jCFw+pT38l6CEatKySpqxCUUtljxppa2kMrxcjZYY/0=",
+        "last_login": "2025-04-26T08:42:51.103Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Joanne",
+        "last_name": "Rowling",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-04-23T15:00:21Z",
+        "pseudonym": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$WnjUxZ209rfxew2bw1Loyy$IvlAwvTN5e9lb2pm5LpfSyApPvcW0f3jXI55KW9Icw0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Taras_Shev",
+        "first_name": "Taras",
+        "last_name": "Shevchenko",
+        "email": "taras@sheva.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-04-23T15:47:48Z",
+        "pseudonym": "Joe Row",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$qCEy0OcPmtvodWCa725tFg$4bygYiQhm7BoQq12oHR3hPBu8GPDEFS04X9TV+Gh1R0=",
+        "last_login": "2025-05-14T13:01:37.312Z",
+        "is_superuser": false,
+        "username": "King_of_horrors",
+        "first_name": "Stephen",
+        "last_name": "King",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-04-28T15:32:05.813Z",
+        "pseudonym": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$YxEO0KHlVwoNQcrKQDr0ny$NFQAAy0aThXsO5b9lFz1pCm0mYATQIs4DkZB1XaobKg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Penelope",
+        "first_name": "Penelope",
+        "last_name": "Douglas",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-04-28T15:34:48.586Z",
+        "pseudonym": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$vMFyfTuKO6dkz13NRbqkwd$VsYun6lOcc+LNQWvrw95hdO9Niyk4/Pj+CRqIlqMt6w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Queen_of_detective",
+        "first_name": "Agata",
+        "last_name": "Kristy",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-04-28T15:35:45.730Z",
+        "pseudonym": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 6,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "",
+        "first_name": "bas",
+        "last_name": "gas",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-04T09:46:15.936Z",
+        "pseudonym": "jfd",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 7,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "pynya",
+        "first_name": "sasha",
+        "last_name": "pyshkin",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-05T13:07:04.198Z",
+        "pseudonym": "pynya",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 8,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ghorik",
+        "first_name": "gorik",
+        "last_name": "ghorik",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-05T13:39:33.464Z",
+        "pseudonym": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 9,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Lesya",
+        "first_name": "Lesya",
+        "last_name": "Ukrainka",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-05T13:52:02.388Z",
+        "pseudonym": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 10,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Mark_01",
+        "first_name": "Mark",
+        "last_name": "Twen",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-05T14:13:30.183Z",
+        "pseudonym": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 11,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "zaika",
+        "first_name": "zaila_20220",
+        "last_name": "saika",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-11T09:41:33.775Z",
+        "pseudonym": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$cuGgtBLJamm76YXwmIE7zW$eEf9496SzHiPBYc0cx0/EkJ7v2O3kxJ/MaYvQsb4d5Y=",
+        "last_login": "2025-05-16T06:59:31.687Z",
+        "is_superuser": true,
+        "username": "ngayka",
+        "first_name": "",
+        "last_name": "",
+        "email": "ngayka@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-05-16T06:59:18.993Z",
+        "pseudonym": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "catalog.book",
+    "pk": 1,
+    "fields": {
+        "title": "Harry Potter and philosopher`s stone",
+        "price": "16.99",
+        "format": 2,
+        "authors": [
+            1
+        ]
+    }
+},
+{
+    "model": "catalog.book",
+    "pk": 4,
+    "fields": {
+        "title": "Harry Potter and cursed child",
+        "price": "19.00",
+        "format": 2,
+        "authors": [
+            4,
+            1
+        ]
+    }
+},
+{
+    "model": "catalog.book",
+    "pk": 5,
+    "fields": {
+        "title": "Chamber of Secrets",
+        "price": "17.99",
+        "format": 2,
+        "authors": [
+            1
+        ]
+    }
+}
+]
