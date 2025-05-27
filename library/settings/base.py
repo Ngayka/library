@@ -121,8 +121,9 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "catalog.Author"
 
-LOGIN_REDIRECT_URL = "/catalog/"
-LOGOUT_REDIRECT_URL = "/catalog/"
+LOGIN_URL = "/registration/login/"
+LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/"
 
 INTERNAL_IPS = [
     "127.0.0.1",
