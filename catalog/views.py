@@ -84,7 +84,7 @@ class BookDetailView(LoginRequiredMixin, generic.DetailView):
 def test_session_view(request: HttpRequest) -> HttpResponse:
     return HttpResponse(
         "<h1>Test Session View</h1>"
-        f"<h4>Session data: {request.session["book"]} </h4>"
+        f"<h4>Session data: {request.session['book']} </h4>"
     )
 
 
