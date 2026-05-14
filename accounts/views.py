@@ -4,7 +4,6 @@ from django.http import HttpRequest, HttpResponse, HttpResponseRedirect
 from django.urls import reverse
 
 
-# Create your views here.
 def login_view(request: HttpRequest) -> HttpResponse:
     if request.method == "GET":
         return render(request, "registration/login.html")
